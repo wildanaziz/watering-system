@@ -1,5 +1,5 @@
 # Automatic Plant Watering System with ESP32, RTC, Water Level, and Soil Moisture Sensor
-![auto-img](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgardenerspath.com%2Fgear%2Firrigation%2Fmethods-home-gardens%2F&psig=AOvVaw1-TfmzOVCGPCxLyhW68DGe&ust=1732854768377000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICR-eib_okDFQAAAAAdAAAAABAK)
+![auto-img](assets/Irrigation-Options-for-Your-Landscape.jpg)
 
 ## Project Domain
 The project focuses on IoT-based automation for efficient plant watering by integrating sensors and actuators with an ESP32 microcontroller.
@@ -21,7 +21,8 @@ The project focuses on IoT-based automation for efficient plant watering by inte
 - Use an ESP32 microcontroller to control the system and display information on an OLED screen.
 - Include a buzzer for alerts and a relay to activate the water pump.
 
-## Component Preparation
+## Prerequisites
+### Component Preparation
 - **ESP32**: Microcontroller for data processing and system control.
 - **Soil Moisture Sensor YL-69**: Measures soil moisture levels to determine watering needs.
 - **Water Level Sensor**: Monitors water levels in the reservoir.
@@ -32,13 +33,20 @@ The project focuses on IoT-based automation for efficient plant watering by inte
 - **Buzzer**: Provides audio alerts.
 - **OLED 128x64 (Adafruit)**: Displays system status and sensor readings.
 
-## Datasheet ESP32
-[Datasheet ESP32 - PDF](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+### Datasheet ESP32
+![Datasheet ESP32 - PDF](assets/esp32.jpg)
+
+### Schematic Fritzing
+![schematic](assets/schematic.jpg)
 
 ## Demo and Evaluation
 - **Setup**: Connect all components as per the wiring diagram and upload the code to ESP32.
 - **Demo**: Demonstrate real-time monitoring of soil moisture and water levels, along with automatic watering and notifications.
 - **Evaluation**: Test the system under different soil conditions and evaluate water usage efficiency.
+
+https://github.com/user-attachments/assets/9ddc3a71-bdd0-4ae9-9dad-f0930a42f8fc
+
+
 
 ## Conclusion
 This project provides a cost-effective and efficient solution for automating plant irrigation. By leveraging IoT components like ESP32 and sensors, it ensures optimal water usage, reduces manual intervention, and supports plant health. The system can be further enhanced with smartphone integration or weather forecasting data for advanced functionality.
